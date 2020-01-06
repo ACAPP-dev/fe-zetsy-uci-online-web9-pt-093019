@@ -4,17 +4,60 @@
 
 /*////////// Global Styles //////////*/
 
-body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+*, html {
+  margin: 0;
+  padding: 0;
 }
 
-.wrapper {
+body {
+	background: rgb(242	235	234);
+	font-size: 100%;
+	font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+
+
+}
+
+.wrapper-1 {
 	width: 960px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+
 }
 
+
+
 /* Write all remaining styles here */
+
+h1, h2 {
+  color: grey;
+}
+
+p {
+  font-size: .8em;
+
+}
+
+.border-div {
+  border-bottom: 2px solid grey;
+}
+.main-photo {
+  border: 3px solid grey;
+
+}
+
+#copyright {
+  font-size: .5em;
+  text-align: right;
+}
+
+.links {
+  border: 3px solid rgb(192 192 192);
+}
+
+.links:hover {
+  border: 3px solid rgb(169 169 169);
+}
